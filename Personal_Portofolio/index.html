@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1a1a1a;
+        color: #fff;
+      }
+      header {
+        background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        padding: 2rem 0;
+        text-align: center;
+      }
+      header h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+      header p {
+        font-size: 1.2rem;
+        margin: 0.5rem 0 0;
+      }
+      nav {
+        background-color: #111;
+        padding: 1rem 0;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        transition: background-color 0.3s;
+      }
+      nav a:hover {
+        background-color: #2575fc;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: #2e2e2e;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+      .section {
+        margin-bottom: 3rem;
+      }
+      .section h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #2575fc;
+        display: inline-block;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background: #111;
+        color: #bbb;
+        position: relative;
+      }
+      .btn-primary {
+        display: inline-block;
+        padding: 0.8rem 1.5rem;
+        background: #2575fc;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 25px;
+        transition: background-color 0.3s;
+      }
+      .btn-primary:hover {
+        background: #6a11cb;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Daniel's Portfolio</h1>
+      <p>Exploring My Work and Passion</p>
+    </header>
+
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm Daniel, a passionate individual dedicated to Software
+          Engineering . I specialize in HTML, CSS, and JavaScript and love
+          creating innovative solutions. When I'm not working, you can find me
+          watching movies or doing sports.
+        </p>
+        <img
+          src="gambar.jpg"
+          style="width: 125px; height: 300px; border-radius: 25px"
+        />
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <ul id="projects-list">
+          <li>
+            <strong>Project 1:</strong> A web app that helps promote a
+            coffeshop.
+            <a href="#" class="btn-primary">View More</a>
+          </li>
+          <li>
+            <strong>Project 2:</strong> A mobile game for brain training.
+            <a href="#" class="btn-primary">View More</a>
+          </li>
+          <li>
+            <strong>Project 3:</strong> A data visualization tool for
+            businesses. <a href="#" class="btn-primary">View More</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>
+          If you'd like to get in touch, feel free to email me at
+          <a href="mailto:danielkusumo550@gmail.com" class="btn-primary"
+            >danielkusumo550@gmail.com</a
+          >
+          or connect with me on [social media platform].
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Daniel. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
